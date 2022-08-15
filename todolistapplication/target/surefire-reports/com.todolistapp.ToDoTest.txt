@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.todolistapp.ToDoTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 7, Time elapsed: 0.248 s <<< FAILURE! - in com.todolistapp.ToDoTest
+beforeTest(com.todolistapp.ToDoTest)  Time elapsed: 0.175 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/logging/LoggingHandler
+	at com.todolistapp.ToDoTest.beforeTest(ToDoTest.java:55)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.logging.LoggingHandler
+	at com.todolistapp.ToDoTest.beforeTest(ToDoTest.java:55)
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browser"  value="Chrome" />
+  <parameter name="C2"  value="To finish Assignment" />
+	<parameter name="C3"  value="To go to gym" />
+	<parameter name="C4"  value="To buy groceries" />
+	<parameter name="C16"  value="  To make some art   " />
+    <classes>
+      <class name="com.todolistapp.ToDoTest">
+
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
